@@ -1,15 +1,19 @@
 {
-    "compileOnSave": false,
-    "compilerOptions": {        
+    "compilerOptions": {
         "moduleResolution": "node",
         "jsx": "react",
+        "module": "es6",
         "target": "es2015",
-        "module": "es6",        
         "noImplicitAny": false,
-        "sourceMap": true,
+        "sourceMap": false,
+        "rootDir": "./src",
         "outDir": "./dist"
     },
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.tsx"
+    ],
     "exclude": [
-		"node_modules"
-	]
+        "node_modules"
+    ]
 }
